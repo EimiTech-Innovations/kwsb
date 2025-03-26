@@ -1,9 +1,14 @@
-
+import heroImage from "../../assets/Images/heroImage.png"
 
 const Hero = () => {
     return (
-        <div>Hero</div>
-    )
-}
+        <img
+            className="h-96 w-full object-cover"
+            src={heroImage}
+            alt="KWS Bangalore church"
+        />
 
-export default Hero
+    );
+};
+
+export default Hero;
