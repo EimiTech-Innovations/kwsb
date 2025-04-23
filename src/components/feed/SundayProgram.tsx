@@ -4,8 +4,8 @@ import { Button } from "../ui/button"
 const SundayProgram = () => {
     return (
         <section className=" body-font">
-            <div className="container px-5 mx-auto py-2">
-                <h3 className="text-xl font-bold">Monthly Program</h3>
+            <div className="container mx-auto py-2">
+                <h3 className="text-xl font-bold">Sunday Program</h3>
                 <div className="flex flex-wrap -m-4">
                     <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
                         <a className="block relative h-48 rounded overflow-hidden">

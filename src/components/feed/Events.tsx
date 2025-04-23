@@ -8,14 +8,15 @@ const Events = ({ events }: Props) => {
     return (
         <div>
 
-            <ul>
+            <ul className="w-full">
                 {events.map((event) => (
                     <>
-                        <hr className="border border-gray-300" />
+
                         <li key={event.id} className="py-3">
                             <strong>{event.eventName}</strong> <br />
                             <span className="text-sm">{event.eventDate.toLocaleDateString()}</span>
                         </li>
+                        <hr className="border-b-0 border-gray-400 border-dashed" />
 
                     </>
 
