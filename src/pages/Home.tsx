@@ -8,6 +8,7 @@ import VideoFeed from "../components/Video/VideoFeed"
 
 
 const Home = () => {
+
     return (
         <>
             <Hero />

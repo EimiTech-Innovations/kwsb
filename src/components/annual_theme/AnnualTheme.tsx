@@ -1,10 +1,16 @@
+import { useEffect, useState } from "react";
 import { Button } from "../ui/button"
 
 
 const AnnualTheme = () => {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    setVisible(true);
+  }, []);
   return (
 
-    <section className="text-gray-600 body-font py-24">
+    <section className={`slide-up ${visible ? "visible" : ""}  text-gray-600 body-font py-24`}>
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 rounded-lg overflow-hidden">
           <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iEiRozc34ek?si=xMNdtqvmx0SYhWq-&amp;controls=0"
