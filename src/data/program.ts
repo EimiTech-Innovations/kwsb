@@ -63,6 +63,7 @@ export const monthlyEvents: MonthlyEvent[] = [
   },
 ];
 
+//TODO: add more programs
 export const sundayProgram: MonthlyEvent[] = [
   {
     name: "Sunday Service",

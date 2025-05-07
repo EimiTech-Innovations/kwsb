@@ -3,5 +3,3 @@ export type MonthlyEvent = {
   date: string;
   url: string;
 };
-
-export default monthlyEvent;
