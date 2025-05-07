@@ -1,4 +1,4 @@
-import { monthlyEvents } from "../../data/montlyEvent"
+import { monthlyEvents } from "../../data/program"
 import { Button } from "../ui/button"
 
 
