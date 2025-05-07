@@ -14,6 +14,9 @@
 import { Button } from "../components/ui/button"
 
 const MemberShip = () => {
+
+
+
     return (
         <div>
             <section className="text-gray-600 body-font relative">
