@@ -3,7 +3,7 @@ import AnnualTheme from "../components/annual_theme/AnnualTheme"
 import Feed from "../components/feed/Feed"
 import ImageGallery from "../components/gallery/ImageGallery"
 import Hero from "../components/hero/Hero"
-import Team from "../components/Team/Team"
+// import Team from "../components/Team/Team"
 import VideoFeed from "../components/Video/VideoFeed"
 
 
