@@ -12,15 +12,13 @@ const Events = ({ events }: Props) => {
                 {events.map((event) => (
                     <>
 
-                        <li key={event.id} className=" tracking-widest hover:bg-gray-300 transition ease-in-out duration-300 py-2">
+                        <li key={event.id} className=" tracking-widest hover:bg-gray-300 transition ease-in-out duration-300 py-2 pl-3">
                             <strong>{event.eventName}</strong> <br />
                             <span className="text-sm">{event.eventDate.toLocaleDateString()}</span>
                         </li>
                         <hr className="border-b-0 border-gray-400 border-dashed" />
 
                     </>
-
-
                 ))}
             </ul>
         </div>

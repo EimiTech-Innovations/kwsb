@@ -1,4 +1,5 @@
 import { youtubeVideo } from "../../data/youtube"
+import { Button } from "../ui/button"
 
 const VideoFeed = () => {
     return (
@@ -21,8 +22,20 @@ const VideoFeed = () => {
                             </div>
                         ))
                     }
+                    <Button asChild className="mx-auto inline-flex items-center text-white bg-indigo-500 border-0 py-6 px-3 focus:outline-none hover:bg-indigo-600 rounded text-base mt-4 md:mt-0">
+                        <a
+                            href="https://www.youtube.com/@kwsbangalore3499"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-center"
+                        >
+                            click to view more...
+                        </a>
+                    </Button>
                 </div>
+
             </div>
+
         </section>
     )
 }

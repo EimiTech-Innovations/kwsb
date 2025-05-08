@@ -20,4 +20,22 @@ export const youtubeVideo: youtubeVideoType[] = [
     url: "https://www.youtube.com/watch?v=_0UTcHN9ewk",
     description: "",
   },
+  {
+    name: "KWSB | 24th Christmas Day 2024 | Lenkhom",
+    videoId: "dWfnvA7d1qE",
+    url: "https://www.youtube.com/watch?v=dWfnvA7d1qE",
+    description: "",
+  },
+  {
+    name: "KWS Bangalore || Silver Jubilee Theme Song || 4K Video",
+    videoId: "Ugp7Y1ItJAs",
+    url: "https://www.youtube.com/watch?v=Ugp7Y1ItJAs&t=48s",
+    description: "",
+  },
+  {
+    name: "KWS Bangalore || Silver Jubilee Theme Song || 4K Video",
+    videoId: "-VvUnChhuws",
+    url: "https://www.youtube.com/watch?v=-VvUnChhuws",
+    description: "",
+  },
 ];

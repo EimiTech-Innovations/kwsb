@@ -17,7 +17,7 @@ const Home = () => {
             <ImageGallery />
             <VideoFeed />
             <AboutUs />
-            <Team />
+            {/* <Team /> */}
         </>
 
     )
