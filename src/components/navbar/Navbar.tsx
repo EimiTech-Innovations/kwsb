@@ -1,5 +1,6 @@
 import { Button } from "../ui/button";
 import logo from '../../assets/Images/kwslogo.ico'
+import { Link } from "react-router";
 
 const Navbar = () => {
 
@@ -7,11 +8,11 @@ const Navbar = () => {
         <header className="text-gray-600 body-font border-b-1 border-gray-200">
             <div className="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
                 <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-                    <a className="mr-5 hover:text-gray-900">Home</a>
+                    <Link to="/" className="mr-5 hover:text-gray-900">Home</Link>
                     <a className="mr-5 hover:text-gray-900">Events</a>
                     <a className="mr-5 hover:text-gray-900">Gallery</a>
                     <a className="mr-5 hover:text-gray-900">Videos</a>
-                    <a className="mr-5 hover:text-gray-900">About Us</a>
+                    <Link to="/about" className="mr-5 hover:text-gray-900">About Us</Link>
 
                 </nav>
                 <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">

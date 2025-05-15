@@ -1,16 +1,6 @@
-// import pr from "../../assets/Images/pastor.jpg"
-// import astpr from "../../assets/Images/astpr.jpg"
-// import chairman from "../../assets/Images/chairman.jpg"
-// import sec from "../../assets/Images/sec.jpg"
-// import vice from "../../assets/Images/vice.jpg"
-// import astsec from "../../assets/Images/astsec.jpg"
-// import fin from "../../assets/Images/fin.jpg"
-// import treasure from "../../assets/Images/treasure.jpg"
-// import property from "../../assets/Images/pro.jpg"
-// import music from "../../assets/Images/music.jpg"
-// import info from "../../assets/Images/info.jpg"
-// import caretaker from "../../assets/Images/care.jpg"
 
+
+import { Link } from "react-router"
 import executives from "../../data/executive"
 
 function About() {
@@ -20,10 +10,9 @@ function About() {
             <div className="bg-gray-200 py-10">
                 <div className=" container h-60 mx-auto ">
                     <div>
-                        <a href="
-                /">Home</a>
+                        <Link to="/">Home</Link>
                         <span className="mx-2">/</span>
-                        <a href="about" className="font-bold">About Us</a>
+                        <Link to="/about" className="font-bold">About Us</Link>
                     </div>
                     <div className="text-center py-10">
                         <h1 className="text-3xl font-bold"> About Us </h1>
@@ -80,9 +69,6 @@ function About() {
                         )
 
                     }
-
-
-
                 </div >
             </div >
 
