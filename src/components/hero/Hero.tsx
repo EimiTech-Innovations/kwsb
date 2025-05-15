@@ -9,9 +9,9 @@ const Hero = () => {
 
     return (
         <section className={`slide-up ${visible ? "visible" : ""}`}>
-            <div className="h-96 absolute w-full bg-gradient-to-b from-transparent via-transparent to-black/70"></div>
+            <div className="h-96 lg:h-[600px] absolute w-full bg-gradient-to-b from-transparent via-transparent to-black/70 "></div>
             <img
-                className="h-96 w-full object-cover"
+                className="h-96 lg:h-[600px]  w-full object-cover"
                 src={heroImage}
                 alt="KWS Bangalore church"
             />
